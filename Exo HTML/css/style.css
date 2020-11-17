@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
+
+h1, h2 {
+    font-family : 'Zhi Mang Xing';
+}
+h2 {
+    font-size: 200%;
+}
+header h1:before {
+    content:'\2605';
+    color: rgb(255, 0, 0);
+}
+html{
+    font-size: 62.5%;
+    background: #222 url(https://i.imgur.com/HWu44Bv.png)no-repeat fixed center / cover;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem 'Open Sans',sans-serif;
+    margin: 0;
+}
+h1,h2,h3,p{
+    margin: 0;
+    font-weight: 400;
+}
+:root{
+    --primary-color: rgb(8, 73, 117);
+    --success-color: rgba(39,174,96,1.0);
+    --alert-color: rgba(192,57,43,1.0);
+}
+header > h1{
+    color: rgb(14, 12, 12);
+    text-align: center;
+    line-height: 6.0rem;
+    font-size: 400%;
+}
+main {
+    max-width: 90rem;
+    border: solid 0.1rem #222;
+    margin: 2.0rem auto 0;
+    padding: 1.5rem;
+    background-color: #fafafa;
+}
+:root{
+    --color-bg-default: #c02626;
+    --color-link: rgb(81, 127, 138);
+    --color-body: #f1e8e8;
+    --header-color: rgb(126, 214, 236);
+}
+section h2, nav h2{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: var(--header-color);
+    line-height: 4.5rem;
+    text-transform: capitalize;
+    box-shadow: 0 .3rem 0 #ccc;
+    text-shadow: .1rem .1rem 0 #ccc;
+    color: #fafafa;
+    padding: .5rem;
+}
+section .history:target {
+    background-color: var(--color-bg-default);
+}
+footer {
+    text-align: center;
+}
+section div img {
+    width: 100%;
+    display: block;
+}
